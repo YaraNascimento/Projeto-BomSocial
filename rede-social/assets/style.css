@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:white;
+    font-family: 'Roboto', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 192, 225);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 0 3px rgba(0, 0, 0, 0.9)
+}
+
+strong{
+    color: hotpink;
+}
+strong{
+    color: hotpink;
+}
+
+
+.main{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+div.newPost{
+        
+        width: 100%;
+        height: 240px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 50px 0;
+        padding: 25px;
+        background: #ffff;
+        border-radius: 10px;
+        box-shadow: 1px 0 3px rgba(0, 0, 0, 0.6);
+}
+
+div.newPost div.infoUser{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.newPost div.infoUser div.imgUser{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #333;
+
+}
+
+div.newPost div.infUser strong{
+    font-size: 16px;
+    margin-left: 10px;
+    color: green;
+
+}
+
+
+div.newPost form.FormPost{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+div.newPost form.FormPost textarea{
+    background: #fbfbfb;
+    margin: 15px 0;
+    padding: 25px;
+    border-radius: 10px;
+    resize: none;
+    outline: none;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #727272;;
+
+}
+
+div.newPost form.FormPost div.iconsAndButton{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+div.newPost form.FormPost div.iconsAndButton div.icons {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.newPost form.FormPost div.iconsAndButton div.icons button{
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    border:0;
+    background: #ffff;
+    cursor: pointer;
+}
+
+
+div.newPost form.FormPost div.iconsAndButton button.btnSubmitForm{
+    background: rgb(255, 192, 225);
+    padding: 10px 50px;
+    color:#fbfbfb;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+
+    border: 0;
+    border-radius: 10px;
+    transition: background 0.2s;
+}
+
+
+div.newPost form.FormPost div.iconsAndButton button.btnSubmitForm:hover{
+    background: pink;
+
+}
+
+ul.posts li.post{
+    margin-bottom: 50px;
+    width: 100%;
+    background:#ffff;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 1px 0 3px rgb(0, 0, 0, 0.9);
+
+}
+
+
+ul.posts li.post div.infoUserPost{
+    display: flex;
+    align-items: center;
+
+}
+
+ul.posts li.post div.infoUser div.nameAndHour{
+    margin-left: 10px;
+}
+ul.posts li.post div.infoUserPost div.imgUserPost{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #333;
+}
+
+ul.posts li.post div.infoUserPost div.nameAndHour >strong{
+    color:hotpink;
+}
+
+
+ul.posts li.post div.infoUserPost div.nameAndHour >p{
+    color: plum;
+    font-size: 14px;
+}
+
+ul.pasts li.post >p{
+    width: 100%;
+    margin: 20px 0;
+    font-weight: bold;
+    color: #727272;
+}
+
+
+ul.posts li.post div.actionBtnPost{
+    display: flex;
+    align-items: center;
+   
+}
+
+ul.posts li.post div.actionBtnPost button.filesPost{
+    padding: 5px 20px;
+    margin-right: 10px;
+    border: 0;
+    outline: none;
+    display: flex;
+    align-items: center;
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 16px;
+    justify-content: center;
+    border-radius: 30px ;
+    cursor: pointer;
+    transition: background 0.2s;
+
+}
+
+ul.posts li.post div.actionBtnPost button.filesPost img{
+    margin-right: 5px;
+}
+
+.like{
+    background:rgb(255, 192, 225);
+
+}
+.like:hover{
+    background: rosybrown;
+}
+
+.comment{
+    background:paleturquoise;
+
+}
+
+.share{
+    background:peachpuff;
+
+}
+
+
+
